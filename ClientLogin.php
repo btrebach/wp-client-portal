@@ -1,15 +1,16 @@
 <?php
 /*
-	Plugin Name: Client Login
-	Plugin URI: https://github.com/btrebach/WP-Client-Plugin 
-	Description: Allow clients to login to a site and interact with developers. 
-	Version: 1.0
-	Author: Ben Trebach
-	Author URI: http://btrebach.com
-	License: GPL2
+Plugin Name: Client Login
+Plugin URI: https://github.com/btrebach/WP-Client-Plugin 
+Description: Allow clients to login to a site and interact with developers. 
+Version: 1.0
+Author: Ben Trebach
+Author URI: http://btrebach.com
+License: GPL2
 */
 
-/*  Copyright 2014 Ben Trebach  (email : ben@btrebach.com)
+/*
+    Copyright 2014 Ben Trebach  (email : ben@btrebach.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
