@@ -1,4 +1,4 @@
-WordPress Client Plugin
+WordPress Client Portal Page
 =======
 **Features**
 - Allow clients to:
