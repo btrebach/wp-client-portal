@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-#OS junk
-*.DS_Store
-
-#Paperwork
-*.docx
 =======
 #OS Generated#
 #############
@@ -31,4 +25,3 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
->>>>>>> 8aa81e63db44bdcd350c82b3b793a4c309a7828a
