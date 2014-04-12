@@ -1,0 +1,233 @@
+/*
+Plugin Name: Progress Bar
+Plugin URI: https://github.com/jazzsequence/progress-bar
+Description: a simple progress bar shortcode that can be styled with CSS
+Author: Chris Reynolds
+Author URI: http://museumthemes.com
+License: GPL3
+*/
+
+/*
+	Progress Bar
+    Copyright (C) 2012 | Chris Reynolds (chris@arcanepalette.com)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+
+    http://www.opensource.org/licenses/gpl-3.0.html
+*/
+
+/*
+   for some awesome ideas for styling these progress bars
+   go here: http://css-tricks.com/css3-progress-bars/
+   and for an awesome css gradient generator
+   go here: http://www.colorzilla.com/gradient-editor/
+*/
+
+/* base */
+div.wppb-wrapper {
+	clear: both;
+}
+
+div.wppb-progress {
+	height: 25px;
+	width: 400px;
+	background: #E8E8E8;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	position: relative;
+}
+
+div.wppb-progress > span {
+	display: block;
+	height: 25px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	background: #5a84c4; /* Old browsers */
+	background: -moz-linear-gradient(top, #5a84c4 0%, #1a2275 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a84c4), color-stop(100%,#1a2275)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5a84c4 0%,#0099FF 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5a84c4 0%,#0099FF 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5a84c4 0%,#0099FF 100%); /* IE10+ */
+	background: linear-gradient(top, #5a84c4 0%,#0099FF 100%); /* W3C */
+	-webkit-box-shadow:
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow:
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	box-shadow:
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	overflow: hidden;
+	position: relative;
+}
+/* red */
+div.wppb-progress > span.red {
+	background: #d10418; /* Old browsers */
+	background: -moz-linear-gradient(top, #d10418 0%, #6d0019 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d10418), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d10418 0%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d10418 0%,#6d0019 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d10418 0%,#6d0019 100%); /* IE10+ */
+	background: linear-gradient(top, #d10418 0%,#6d0019 100%); /* W3C */
+}
+
+/* yellow */
+div.wppb-progress > span.yellow {
+	background: #f6e6b4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6e6b4 0%, #ed9017 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6e6b4 0%,#ed9017 100%); /* W3C */
+}
+
+/* orange */
+div.wppb-progress > span.orange {
+	background: #ffa84c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffa84c 0%, #ff7b0d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa84c), color-stop(100%,#ff7b0d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffa84c 0%,#ff7b0d 100%); /* W3C */
+}
+
+/* green */
+div.wppb-progress > span.green {
+	background: #83c783; /* Old browsers */
+	background: -moz-linear-gradient(top,  #83c783 0%, #52b152 33%, #008a00 62%, #005700 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#83c783), color-stop(33%,#52b152), color-stop(62%,#008a00), color-stop(100%,#005700)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #83c783 0%,#52b152 33%,#008a00 62%,#005700 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #83c783 0%,#52b152 33%,#008a00 62%,#005700 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #83c783 0%,#52b152 33%,#008a00 62%,#005700 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #83c783 0%,#52b152 33%,#008a00 62%,#005700 100%); /* W3C */
+}
+
+/* candystripes */
+div.wppb-progress > span.candystripes:after, div.wppb-progress > span.candystripe:after, div.wppb-progress > span.animated-candystripe:after, div.wppb-progress > span.animated-candystripes:after {
+	content: "";
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-image:
+	   -webkit-gradient(linear, 0 0, 100% 100%,
+	      color-stop(.25, rgba(255, 255, 255, .2)),
+	      color-stop(.25, transparent), color-stop(.5, transparent),
+	      color-stop(.5, rgba(255, 255, 255, .2)),
+	      color-stop(.75, rgba(255, 255, 255, .2)),
+	      color-stop(.75, transparent), to(transparent)
+	   )!important;
+	background-image:
+		-webkit-linear-gradient(
+		  -45deg,
+	      rgba(255, 255, 255, .2) 25%,
+	      transparent 25%,
+	      transparent 50%,
+	      rgba(255, 255, 255, .2) 50%,
+	      rgba(255, 255, 255, .2) 75%,
+	      transparent 75%,
+	      transparent
+	   )!important;
+	background-image:
+		-moz-linear-gradient(
+		  -45deg,
+	      rgba(255, 255, 255, .2) 25%,
+	      transparent 25%,
+	      transparent 50%,
+	      rgba(255, 255, 255, .2) 50%,
+	      rgba(255, 255, 255, .2) 75%,
+	      transparent 75%,
+	      transparent
+	   )!important;
+	background-image:
+		-ms-linear-gradient(
+		  -45deg,
+	      rgba(255, 255, 255, .2) 25%,
+	      transparent 25%,
+	      transparent 50%,
+	      rgba(255, 255, 255, .2) 50%,
+	      rgba(255, 255, 255, .2) 75%,
+	      transparent 75%,
+	      transparent
+	   )!important;
+	background-image:
+		-o-linear-gradient(
+		  -45deg,
+	      rgba(255, 255, 255, .2) 25%,
+	      transparent 25%,
+	      transparent 50%,
+	      rgba(255, 255, 255, .2) 50%,
+	      rgba(255, 255, 255, .2) 75%,
+	      transparent 75%,
+	      transparent
+	   )!important;
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+/* animated candystripes */
+div.wppb-progress > span.animated-candystripe:after, div.wppb-progress > span.animated-candystripes:after {
+	-webkit-animation: move 2s linear infinite;
+}
+
+.animated-candystripes > span:after, .animated-candystripe > span:after {
+			display: none;
+		}
+
+		@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+
+		@-moz-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+
+/* after */
+div.wppb-wrapper.after { width: 440px; }
+div.wppb-wrapper.after div.wppb-progress { float: left; }
+div.wppb-wrapper.after div.after { float: right; line-height: 25px; }
+
+/* inside */
+div.wppb-wrapper.inside { width: 400px; height: 25px; position: relative; }
+div.wppb-wrapper div.inside { margin: 0 auto; line-height: 25px; color: #ffffff; font-weight: bold; position: absolute; z-index: 1; width: 400px; text-align: center; }
+
+/* responsive */
+div.wppb-progress.full,
+div.wppb-wrapper.full,
+div.wppb-wrapper.full div.inside {
+	width: 100%;
+}
+
+/* flat color */
+div.wppb-progress > span.flat {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}

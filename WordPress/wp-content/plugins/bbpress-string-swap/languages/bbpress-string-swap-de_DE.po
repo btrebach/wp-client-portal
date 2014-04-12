@@ -1,0 +1,625 @@
+# This German Language File: Copyright (C) 2012-2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the bbPress String Swap Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer bbPress Plugin und WordPress sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress String Swap v1.4.0\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2012-09-07 20:30:54+0100\n"
+"PO-Revision-Date: 2013-11-20 18:17:35+0000\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bbpress-string-swap.php:0
+#: bbpress-string-swap.php:219
+#: bbpress-string-swap.php:457
+#: includes/bbpsswap-admin-extras.php:113
+#: includes/bbpsswap-admin-extras.php:129
+#: includes/bbpsswap-functions.php:42
+#: includes/bbpsswap-functions.php:53
+#: uninstall.php:53
+#: uninstall.php:63
+#@ bbpress-string-swap
+msgid "bbPress String Swap"
+msgstr "bbPress Begriffsänderungen"
+
+#. translators: plugin header field 'PluginURI'
+#: bbpress-string-swap.php:0
+#@ bbpress-string-swap
+msgid "http://genesisthemes.de/en/wp-plugins/bbpress-string-swap/"
+msgstr "http://genesisthemes.de/plugins/bbpress-string-swap/"
+
+#. translators: plugin header field 'Author'
+#: bbpress-string-swap.php:0
+#@ bbpress-string-swap
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#. translators: plugin header field 'AuthorURI'
+#: bbpress-string-swap.php:0
+#@ bbpress-string-swap
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+#: bbpress-string-swap.php:212
+#, php-format
+#@ bbpress-string-swap
+msgid "Sorry, you need to install and/or activate %s plugin version first."
+msgstr "Entschuldigung, aber es muss zuerst die %s Plugin-Vresion installiert/ aktiviert werden, damit dieses Plugin hier verwendet werden kann."
+
+#: bbpress-string-swap.php:339
+#: bbpress-string-swap.php:343
+#: bbpress-string-swap.php:738
+#: bbpress-string-swap.php:770
+#: includes/bbpsswap-admin-extras.php:131
+#: includes/bbpsswap-admin-extras.php:133
+#: includes/bbpsswap-frontend.php:47
+#: includes/bbpsswap-frontend.php:107
+#@ bbpress-string-swap
+msgid "Forums"
+msgstr "Foren"
+
+#: bbpress-string-swap.php:341
+#: bbpress-string-swap.php:754
+#: includes/bbpsswap-admin-extras.php:132
+#: includes/bbpsswap-frontend.php:77
+#@ bbpress-string-swap
+msgid "Home"
+msgstr "Start"
+
+#: bbpress-string-swap.php:345
+#: includes/bbpsswap-frontend.php:137
+#@ bbpress-string-swap
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: bbpress-string-swap.php:308
+#@ bbpress-string-swap
+msgid "Go to the bbPress settings page"
+msgstr "Zur bbPress Einstellungen-Seite gehen"
+
+#: bbpress-string-swap.php:309
+#: includes/bbpsswap-admin-extras.php:130
+#@ bbpress-string-swap
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: bbpress-string-swap.php:219
+#: bbpress-string-swap.php:457
+#: includes/bbpsswap-admin-extras.php:129
+#@ bbpress-string-swap
+msgid "Plugin"
+msgstr "Plugin"
+
+#: bbpress-string-swap.php:470
+#: includes/bbpsswap-admin-extras.php:131
+#@ bbpress-string-swap
+msgid "Forums Archive Title"
+msgstr "Foren-Archivtitel"
+
+#: bbpress-string-swap.php:738
+#: bbpress-string-swap.php:754
+#: bbpress-string-swap.php:770
+#: bbpress-string-swap.php:786
+#: bbpress-string-swap.php:802
+#: bbpress-string-swap.php:818
+#: bbpress-string-swap.php:834
+#: bbpress-string-swap.php:850
+#: bbpress-string-swap.php:866
+#: bbpress-string-swap.php:882
+#: bbpress-string-swap.php:898
+#: bbpress-string-swap.php:914
+#: bbpress-string-swap.php:930
+#: bbpress-string-swap.php:948
+#: bbpress-string-swap.php:967
+#: bbpress-string-swap.php:985
+#: bbpress-string-swap.php:1003
+#: bbpress-string-swap.php:1021
+#: bbpress-string-swap.php:1037
+#: bbpress-string-swap.php:1053
+#: bbpress-string-swap.php:1069
+#: bbpress-string-swap.php:1085
+#: bbpress-string-swap.php:1101
+#: bbpress-string-swap.php:1117
+#: bbpress-string-swap.php:1133
+#: includes/bbpsswap-admin-extras.php:131
+#: includes/bbpsswap-admin-extras.php:132
+#: includes/bbpsswap-admin-extras.php:133
+#: includes/bbpsswap-admin-extras.php:134
+#: includes/bbpsswap-admin-extras.php:135
+#: includes/bbpsswap-admin-extras.php:136
+#: includes/bbpsswap-admin-extras.php:149
+#: includes/bbpsswap-admin-extras.php:154
+#: includes/bbpsswap-admin-extras.php:161
+#: includes/bbpsswap-admin-extras.php:168
+#: includes/bbpsswap-admin-extras.php:175
+#: includes/bbpsswap-admin-extras.php:179
+#: includes/bbpsswap-admin-extras.php:181
+#: includes/bbpsswap-admin-extras.php:184
+#: includes/bbpsswap-admin-extras.php:186
+#: includes/bbpsswap-admin-extras.php:188
+#: includes/bbpsswap-admin-extras.php:190
+#: includes/bbpsswap-admin-extras.php:191
+#: includes/bbpsswap-admin-extras.php:192
+#: includes/bbpsswap-admin-extras.php:193
+#@ bbpress-string-swap
+msgid "Default value:"
+msgstr "Standardwert:"
+
+#: bbpress-string-swap.php:786
+#: includes/bbpsswap-admin-extras.php:134
+#@ bbpress-string-swap
+msgid "Recommeded to enter string value like one of the following:"
+msgstr "Es wird empfohlen, ein Zeichen wie Eines der Folgenden zu verwenden:"
+
+#: includes/bbpsswap-admin-extras.php:69
+#: includes/bbpsswap-admin-extras.php:203
+#@ bbpress-string-swap
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+#: includes/bbpsswap-admin-extras.php:71
+#: includes/bbpsswap-admin-extras.php:203
+#@ bbpress-string-swap
+msgid "Support"
+msgstr "Hilfe &amp; Unterstützung (Support)"
+
+#: includes/bbpsswap-admin-extras.php:73
+#: includes/bbpsswap-admin-extras.php:203
+#@ bbpress-string-swap
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: includes/bbpsswap-admin-extras.php:75
+#: includes/bbpsswap-admin-extras.php:203
+#@ bbpress-string-swap
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/bbpsswap-admin-extras.php:130
+#@ bbpress-string-swap
+msgid "Currently changeable via the plugin"
+msgstr "Derzeit änderbar durch das Plugin"
+
+#: includes/bbpsswap-admin-extras.php:202
+#@ bbpress-string-swap
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+#: bbpress-string-swap.php:479
+#: includes/bbpsswap-admin-extras.php:132
+#@ bbpress-string-swap
+msgid "Breadcrumb: Home Text"
+msgstr "Breadcrumb: Startseite (Webseite)"
+
+#: bbpress-string-swap.php:488
+#: includes/bbpsswap-admin-extras.php:133
+#@ bbpress-string-swap
+msgid "Breadcrumb: Root Text"
+msgstr "Breadcrumb: Foren-Startseite"
+
+#: bbpress-string-swap.php:497
+#: includes/bbpsswap-admin-extras.php:134
+#@ bbpress-string-swap
+msgid "Breadcrumb: Separator String"
+msgstr "Breadcrumb: Trennzeichen"
+
+#: includes/bbpsswap-admin-extras.php:203
+#@ bbpress-string-swap
+msgid "Plugin website"
+msgstr "Plugin-Webseite"
+
+#. translators: plugin header field 'Description'
+#: bbpress-string-swap.php:0
+#@ bbpress-string-swap
+msgid "In bbPress 2.1+, change Forums Archive Title (forums main page), some Breadcrumbs arguments, User Role display names plus a few other Forums Strings."
+msgstr "In bbPress 2.1+ folgende Begriffe ändern: der Forenarchiv-Titel auf der Foren-Hauptseite, einige Parameter des Breadcrumbs (Brotkrümel-Navigation), Namens-Anzeige der Foren-Benutzerrollen sowie einige weitere wichtige Foren-Begriffe."
+
+#: bbpress-string-swap.php:349
+#: bbpress-string-swap.php:802
+#: includes/bbpsswap-admin-extras.php:135
+#: includes/bbpsswap-frontend.php:236
+#@ bbpress-string-swap
+msgid "Key Master"
+msgstr "Super-Administrator"
+
+#: bbpress-string-swap.php:351
+#: bbpress-string-swap.php:818
+#: includes/bbpsswap-admin-extras.php:136
+#: includes/bbpsswap-frontend.php:243
+#@ bbpress-string-swap
+msgid "Moderator"
+msgstr "Moderator"
+
+#: bbpress-string-swap.php:369
+#: bbpress-string-swap.php:930
+#: includes/bbpsswap-admin-extras.php:179
+#: includes/bbpsswap-frontend.php:296
+#@ bbpress-string-swap
+msgid "Posts"
+msgstr "Beiträge"
+
+#: bbpress-string-swap.php:373
+#: bbpress-string-swap.php:967
+#: includes/bbpsswap-admin-extras.php:184
+#: includes/bbpsswap-frontend.php:310
+#@ bbpress-string-swap
+msgid "Freshness"
+msgstr "Zuletzt aktiv"
+
+#: bbpress-string-swap.php:375
+#: bbpress-string-swap.php:985
+#: includes/bbpsswap-admin-extras.php:186
+#: includes/bbpsswap-frontend.php:317
+#@ bbpress-string-swap
+msgid "Voices"
+msgstr "Stimmen"
+
+#: bbpress-string-swap.php:377
+#: bbpress-string-swap.php:1003
+#: includes/bbpsswap-admin-extras.php:188
+#: includes/bbpsswap-frontend.php:324
+#@ bbpress-string-swap
+msgid "Submit"
+msgstr "Senden"
+
+#: bbpress-string-swap.php:506
+#: includes/bbpsswap-admin-extras.php:135
+#@ bbpress-string-swap
+msgid "User Role Display: Key Master"
+msgstr "Benutzerrollen-Anzeige: Super-Administrator"
+
+#: bbpress-string-swap.php:515
+#: includes/bbpsswap-admin-extras.php:136
+#@ bbpress-string-swap
+msgid "User Role Display: Moderator"
+msgstr "Benutzerrollen-Anzeige: Moderator"
+
+#: bbpress-string-swap.php:540
+#@ bbpress-string-swap
+msgid "User Role Display: Member"
+msgstr "Benutzerrollen-Anzeige: Mitglied"
+
+#: bbpress-string-swap.php:585
+#: includes/bbpsswap-admin-extras.php:175
+#@ bbpress-string-swap
+msgid "User Role Display: Guest"
+msgstr "Benutzerrollen-Anzeige: Gast"
+
+#: bbpress-string-swap.php:595
+#: includes/bbpsswap-admin-extras.php:179
+#@ bbpress-string-swap
+msgid "Forum String: Posts"
+msgstr "Forenbegriff: Beiträge"
+
+#: bbpress-string-swap.php:604
+#: includes/bbpsswap-admin-extras.php:181
+#@ bbpress-string-swap
+msgid "Forum String: Started by (user)"
+msgstr "Forenbegriff: Gestartet von (Benutzer)"
+
+#: bbpress-string-swap.php:613
+#: includes/bbpsswap-admin-extras.php:184
+#@ bbpress-string-swap
+msgid "Forum String: Freshness"
+msgstr "Forenbegriff: Zuletzt aktiv"
+
+#: bbpress-string-swap.php:622
+#: includes/bbpsswap-admin-extras.php:186
+#@ bbpress-string-swap
+msgid "Forum String: Voices"
+msgstr "Forenbegriff: Stimmen"
+
+#: bbpress-string-swap.php:631
+#: includes/bbpsswap-admin-extras.php:188
+#@ bbpress-string-swap
+msgid "Forum String: Submit"
+msgstr "Forenbegriff: Senden"
+
+#: bbpress-string-swap.php:353
+#: bbpress-string-swap.php:898
+#: includes/bbpsswap-admin-extras.php:145
+#: includes/bbpsswap-frontend.php:257
+#@ bbpress-string-swap
+msgid "Member"
+msgstr "Mitglied"
+
+#: bbpress-string-swap.php:355
+#: bbpress-string-swap.php:914
+#: includes/bbpsswap-admin-extras.php:175
+#: includes/bbpsswap-frontend.php:285
+#@ bbpress-string-swap
+msgid "Guest"
+msgstr "Gast"
+
+#: bbpress-string-swap.php:722
+#: bbpress-string-swap.php:932
+#: bbpress-string-swap.php:950
+#: bbpress-string-swap.php:969
+#: bbpress-string-swap.php:987
+#: bbpress-string-swap.php:1005
+#: includes/bbpsswap-admin-extras.php:180
+#: includes/bbpsswap-admin-extras.php:182
+#: includes/bbpsswap-admin-extras.php:185
+#: includes/bbpsswap-admin-extras.php:187
+#: includes/bbpsswap-admin-extras.php:189
+#@ bbpress-string-swap
+msgid "Note"
+msgstr "Hinweis"
+
+#: bbpress-string-swap.php:932
+#: includes/bbpsswap-admin-extras.php:180
+#@ bbpress-string-swap
+msgid "Used as the overall count of posts in a Topic. That means the initial starting Topic plus all its Replies."
+msgstr "Verwendet für die gesamte Anzahl aller Beiträge in einem Thema. Das heißt, der Startbeitrag plus alle Antworten darauf."
+
+#: bbpress-string-swap.php:371
+#: bbpress-string-swap.php:948
+#: includes/bbpsswap-admin-extras.php:181
+#: includes/bbpsswap-frontend.php:303
+#, php-format
+#@ bbpress-string-swap
+msgid "Started by: %1$s"
+msgstr "Gestartet von: %1$s"
+
+#: bbpress-string-swap.php:950
+#: includes/bbpsswap-admin-extras.php:182
+#@ bbpress-string-swap
+msgid "Used in a single Forum presentation of all its Topics to represent the user who posted the initial starting Topic."
+msgstr "Verwendet in einer Foren-Einzelansicht, wo alle dessen Themen aufgelistet sind, um den Benutzer zu kennzeichnen, der das jeweilige Thema begonnen hat."
+
+#: bbpress-string-swap.php:951
+#: includes/bbpsswap-admin-extras.php:183
+#, php-format
+#@ bbpress-string-swap
+msgid "It's very important to include the Gettext placeholder string %s here. Otherwise the the actual user name cannot be displayed!"
+msgstr "Es ist sehr wichtig, hier den Gettext-Platzhalter %s mit einzufügen. Ansonsten kann der tatsächliche Benutzername nicht angezeigt werden!"
+
+#: bbpress-string-swap.php:969
+#: bbpress-string-swap.php:987
+#: includes/bbpsswap-admin-extras.php:185
+#: includes/bbpsswap-admin-extras.php:187
+#@ bbpress-string-swap
+msgid "Used in several overview presentions of Forums and Topics."
+msgstr "Verwendet in einigen Übersichtsdarstellungen von Foren und Themen."
+
+#: bbpress-string-swap.php:1005
+#: includes/bbpsswap-admin-extras.php:189
+#@ bbpress-string-swap
+msgid "Used as the submit button string in Topics and Replies."
+msgstr "Verwendet als Buttontext des Absenden-Buttons bei Themen und Antworten."
+
+#: bbpress-string-swap.php:722
+#: includes/bbpsswap-admin-extras.php:198
+#@ bbpress-string-swap
+msgid "Leave any field blank to display the default value."
+msgstr "Ein beliebiges Feld freizulassen, führt zur Anzeige des jeweiligen Standardwertes."
+
+#: includes/bbpsswap-admin-extras.php:196
+#@ bbpress-string-swap
+msgid "Important notes"
+msgstr "Wichtige Hinweise"
+
+#: includes/bbpsswap-admin-extras.php:199
+#, php-format
+#@ bbpress-string-swap
+msgid "Some themes (especially bbPress compatible ones from %s marketplace) come with own templates for bbPress and also change other display things (for example breadcrumb behavior) and functions... This could lead to not display any or all changes made by this plugin. You then have to make the wished changes manually via the theme's templates or simply just call the support of its creator for further advise."
+msgstr "Einige Themes (besonderes bbPress-Kompatible vom %s Marktplatz) bringen eigene bbPress-Templates mit und ändern auch verschiedene Anzeigen (z.B. für den Breadcrum/ Brotkrümel-Navigation) und Funktionen... Dies kann dazu führen, dass einige oder alle Änderungen von diesem Plugin nicht greifen, d.h. keine Anzeige bewirken. Die gewünschten Änderungen müssen dann manuell über die Templates des Themes getätigt werden. Oder einfach den Support des Theme-Herausgebers für weitere Instruktionen kontaktieren."
+
+#: bbpress-string-swap.php:381
+#: bbpress-string-swap.php:385
+#: bbpress-string-swap.php:1021
+#: bbpress-string-swap.php:1053
+#: includes/bbpsswap-admin-extras.php:190
+#: includes/bbpsswap-admin-extras.php:192
+#: includes/bbpsswap-frontend.php:397
+#: includes/bbpsswap-frontend.php:457
+#@ bbpress-string-swap
+msgid "&larr;"
+msgstr "&larr;"
+
+#: bbpress-string-swap.php:383
+#: bbpress-string-swap.php:387
+#: bbpress-string-swap.php:1037
+#: bbpress-string-swap.php:1069
+#: includes/bbpsswap-admin-extras.php:191
+#: includes/bbpsswap-admin-extras.php:193
+#: includes/bbpsswap-frontend.php:427
+#: includes/bbpsswap-frontend.php:487
+#@ bbpress-string-swap
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: bbpress-string-swap.php:458
+#@ bbpress-string-swap
+msgid "Change Forums Archive Title, some Breadcrumb Arguments, User Role display names, some Topics & Replies pagination parameters, some other Forums Strings"
+msgstr "Folgendes ändern: Forenarchiv-Titel, einige Breadcrumbs-Parameter, Anzeigenamen der Foren-Benutzerrollen, einige Parameter der Themen- &amp; Antworten-Paginierung, einige weitere Foren-Begriffe"
+
+#: bbpress-string-swap.php:640
+#: includes/bbpsswap-admin-extras.php:190
+#@ bbpress-string-swap
+msgid "Topic Pagination: Prev String/Text"
+msgstr "Themen-Paginierung: Zurück-String/ -Text"
+
+#: bbpress-string-swap.php:649
+#: includes/bbpsswap-admin-extras.php:191
+#@ bbpress-string-swap
+msgid "Topic Pagination: Next String/Text"
+msgstr "Themen-Paginierung: Vor-String/ -Text"
+
+#: bbpress-string-swap.php:658
+#: includes/bbpsswap-admin-extras.php:192
+#@ bbpress-string-swap
+msgid "Reply Pagination: Prev String/Text"
+msgstr "Antworten-Paginierung: Zurück-String/ -Text"
+
+#: bbpress-string-swap.php:667
+#: includes/bbpsswap-admin-extras.php:193
+#@ bbpress-string-swap
+msgid "Reply Pagination: Next String/Text"
+msgstr "Antworten-Paginierung: Vor-String/ -Text"
+
+#: bbpress-string-swap.php:721
+#@ bbpress-string-swap
+msgid "Set the the Forums Archive title for the forums main page. Change some important Breadcrumb values within the bbPress Breadcrumb display. Change displayed User Role names. Change a few important other Forum strings. Change some Pagination parameters for Topics &amp; Replies."
+msgstr "Den Forenarchiv-Titel für die Foren-Hauptseite festlegen. einige wichtige Breadcrumb-Werte innerhalb der bbPress Brotkrümel-Navigation einstellen. Angezeigte Namen der Foren-Benutzerrollen ändern. Einige weitere wichtige Forenbegriffe ändern. Einige Parameter für die Paginierung von Themen &amp; Antworten ändern."
+
+#: bbpress-string-swap.php:359
+#: bbpress-string-swap.php:834
+#: includes/bbpsswap-admin-extras.php:141
+#: includes/bbpsswap-frontend.php:250
+#@ bbpress-string-swap
+msgid "Participant"
+msgstr "Teilnehmer"
+
+#: bbpress-string-swap.php:361
+#: bbpress-string-swap.php:850
+#: includes/bbpsswap-admin-extras.php:154
+#: includes/bbpsswap-frontend.php:264
+#@ bbpress-string-swap
+msgid "Spectator"
+msgstr "Zuschauer"
+
+#: bbpress-string-swap.php:363
+#: bbpress-string-swap.php:866
+#: includes/bbpsswap-admin-extras.php:161
+#: includes/bbpsswap-frontend.php:271
+#@ bbpress-string-swap
+msgid "Visitor"
+msgstr "Besucher"
+
+#: bbpress-string-swap.php:365
+#: bbpress-string-swap.php:882
+#: includes/bbpsswap-admin-extras.php:168
+#: includes/bbpsswap-frontend.php:278
+#@ bbpress-string-swap
+msgid "Blocked"
+msgstr "Gesperrt"
+
+#: bbpress-string-swap.php:527
+#@ bbpress-string-swap
+msgid "User Role Display: Participant"
+msgstr "Benutzerrollen-Anzeige: Teilnehmer"
+
+#: bbpress-string-swap.php:552
+#: includes/bbpsswap-admin-extras.php:154
+#@ bbpress-string-swap
+msgid "User Role Display: Spectator"
+msgstr "Benutzerrollen-Anzeige: Zuschauer"
+
+#: bbpress-string-swap.php:563
+#: includes/bbpsswap-admin-extras.php:161
+#@ bbpress-string-swap
+msgid "User Role Display: Visitor"
+msgstr "Benutzerrollen-Anzeige: Besucher"
+
+#: bbpress-string-swap.php:574
+#: includes/bbpsswap-admin-extras.php:168
+#@ bbpress-string-swap
+msgid "User Role Display: Blocked"
+msgstr "Benutzerrollen-Anzeige: Gesperrt"
+
+#: includes/bbpsswap-admin-extras.php:149
+#, php-format
+#@ bbpress-string-swap
+msgid "User Role Display: %s"
+msgstr "Benutzerrollen-Anzeige: %s"
+
+#: bbpress-string-swap.php:133
+#, php-format
+#@ bbpress-string-swap
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s ist eine Singleton-Klasse und Sie können keine zweite Instanz davon bilden."
+
+#. translators: plugin header field 'Version'
+#: bbpress-string-swap.php:0
+#@ bbpress-string-swap
+msgid "1.4.0"
+msgstr "1.4.0"
+
+#: bbpress-string-swap.php:392
+#: bbpress-string-swap.php:1085
+#: includes/bbpsswap-frontend.php:335
+#@ bbpress-string-swap
+msgid "Oh bother! No forums were found here!"
+msgstr "Es wurden keine Foren gefunden."
+
+#: bbpress-string-swap.php:396
+#: bbpress-string-swap.php:1101
+#: includes/bbpsswap-frontend.php:342
+#@ bbpress-string-swap
+msgid "Oh bother! No topics were found here!"
+msgstr "Es wurden keine Themen gefunden."
+
+#: bbpress-string-swap.php:400
+#: bbpress-string-swap.php:1117
+#: includes/bbpsswap-frontend.php:349
+#@ bbpress-string-swap
+msgid "Oh bother! No replies were found here!"
+msgstr "Es wurden bisher keine Antworten hier gefunden!"
+
+#: bbpress-string-swap.php:404
+#: bbpress-string-swap.php:1133
+#: includes/bbpsswap-frontend.php:356
+#@ bbpress-string-swap
+msgid "Oh bother! No search results were found here!"
+msgstr "Es wurden keine Treffer für diese Suchanfrage gefunden."
+
+#: bbpress-string-swap.php:676
+#: bbpress-string-swap.php:685
+#: bbpress-string-swap.php:694
+#: bbpress-string-swap.php:703
+#, php-format
+#@ bbpress-string-swap
+msgid "Forum String: Oh bother no %s..."
+msgstr "Forenbegriff: Es wurden keine %s..."
+
+#: bbpress-string-swap.php:676
+#@ bbpress-string-swap
+msgid "forums"
+msgstr "Foren"
+
+#: bbpress-string-swap.php:685
+#@ bbpress-string-swap
+msgid "topics"
+msgstr "Themen"
+
+#: bbpress-string-swap.php:694
+#@ bbpress-string-swap
+msgid "replies"
+msgstr "Antworten"
+
+#: bbpress-string-swap.php:703
+#@ bbpress-string-swap
+msgid "search results"
+msgstr "Suchergebnisse"
+
+#: includes/bbpsswap-functions.php:41
+#: uninstall.php:52
+#@ bbpress-string-swap
+msgid "You must be logged in to run this script."
+msgstr "Sie müssen angemeldet sein, um dieses Skript ausführen zu können."
+
+#: includes/bbpsswap-functions.php:52
+#: uninstall.php:62
+#@ bbpress-string-swap
+msgid "You do not have permission to run this script."
+msgstr "Sie haben keine Berechtigung, um dieses Skript ausführen zu dürfen."
+
