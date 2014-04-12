@@ -1,0 +1,13 @@
+/*Progress Bar CSS*/
+#progressbar {
+background-color: #E8E8E8; /*Grey background*/
+border-radius: 13px;
+padding: 3px;
+}
+ 
+#progressbar > div {
+background-color: #0099FF; /*Blue bar*/
+width: 20%; /*Completed amount*/
+height: 20px;
+border-radius: 10px;
+}
