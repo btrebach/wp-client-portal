@@ -3,6 +3,11 @@
 .DS_Store
 .DS_Store?
 
+#Word Docs#
+###########
+.doc
+.docx
+
 #WordPress#
 ##########
 .htaccess
