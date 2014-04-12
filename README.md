@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 WordPress Client Plugin
+=======
+WordPress Client Portal Page
+>>>>>>> 8aa81e63db44bdcd350c82b3b793a4c309a7828a
 =======
 **Features**
 - Allow clients to:

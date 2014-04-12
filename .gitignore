@@ -1,5 +1,34 @@
+<<<<<<< HEAD
 #OS junk
 *.DS_Store
 
 #Paperwork
 *.docx
+=======
+#OS Generated#
+#############
+.DS_Store
+.DS_Store?
+
+#Word Docs#
+###########
+.doc
+.docx
+
+#WordPress#
+##########
+.htaccess
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+sitemap.xml
+*.log
+wp-content/cache/
+wp-content/backups/
+sitemap.xml
+sitemap.xml.gz
+>>>>>>> 8aa81e63db44bdcd350c82b3b793a4c309a7828a
