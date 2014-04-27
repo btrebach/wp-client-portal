@@ -1,5 +1,5 @@
 #all_text span
 {
-	text-decoration:underline;
-	background-color:yellow;
+	text-decoration:underline; 
+	background-color:yellow; /*highlights found text in yellow*/
 }
