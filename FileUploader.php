@@ -1,22 +1,25 @@
 <?php
-/**
- * Simple File Uploader
- * Ben Trebach
- * www.btrebach.com
- */
+/*
+* Plugin Name: Simple File Uploader
+* Plugin URI: http://www.btrebach.com/
+* Version: 1andonly
+* Author: Ben Trebach
+* Description: Very basic file uploader
+*/
 function fileupload( $label ) { ?>
-  <tr>
-    <td class="left_label"> <?php
-      echo $label; ?>
-    </td>
-    <td>
-      <form name="uploadfile" id="uploadfile_form" method="POST" enctype="multipart/form-data" action="<?php echo $this->filepath.'#uploadfile'; ?>" accept-charset="utf-8" >
-        <input type="file" name="uploadfiles[]" id="uploadfiles" size="35" class="uploadfiles" />
-        <input class="button-primary" type="submit" name="uploadfile" id="uploadfile_btn" value="Upload"  />
-      </form>
-    </td>
-  </tr>  <?php
+<tr>
+  <td class="left_label"> <?php
+  echo $label; ?>
+</td>
+<td>
+  <form name="uploadfile" id="uploadfile_form" method="POST" enctype="multipart/form-data" action="<?php echo $this->filepath.'#uploadfile'; ?>" accept-charset="utf-8" >
+    <input type="file" name="uploadfiles[]" id="uploadfiles" size="35" class="uploadfiles" />
+    <input class="button-primary" type="submit" name="uploadfile" id="uploadfile_btn" value="Upload"  />
+  </form>
+</td>
+</tr>  <?php
 }
+add_shortcode( 'fileupload', 'fileupload' );
 
 function fileupload_process() { 
   $uploadfiles = $_FILES['uploadfiles'];
@@ -69,7 +72,7 @@ function fileupload_process() {
           'post_title' => $filetitle,
           'post_content' => '',
           'post_status' => 'inherit'
-        );
+          );
 
         $attach_id = wp_insert_attachment( $attachment, $filedest );
         require_once( ABSPATH . "wp-admin" . '/includes/image.php' );
